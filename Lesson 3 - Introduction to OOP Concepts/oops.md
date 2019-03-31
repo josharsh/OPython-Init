@@ -4,14 +4,7 @@
 
 (Source: [https://www.tutorialspoint.com/python/python_classes_objects.htm](https://www.tutorialspoint.com/python/python_classes_objects.htm))
 
-
-    Python has been an object-oriented language since it existed. Because of this, creating and using classes and objects are downright easy. This chapter helps you become an expert in using Python's object-oriented programming support.
-
-
-    If you do not have any previous experience with object-oriented (OO) programming, you may want to consult an introductory course on it or at least a tutorial of some sort so that you have a grasp of the basic concepts.
-
-
-    However, here is a small introduction of Object-Oriented Programming (OOP) to bring you at speed −
+Python has been an object-oriented language since it existed. Because of this, creating and using classes and objects are downright easy. This chapter helps you become an expert in using Python's object-oriented programming support.If you do not have any previous experience with object-oriented (OO) programming, you may want to consult an introductory course on it or at least a tutorial of some sort so that you have a grasp of the basic concepts.However, here is a small introduction of Object-Oriented Programming (OOP) to bring you at speed −
 
 
 ## Overview of OOP Terminology
