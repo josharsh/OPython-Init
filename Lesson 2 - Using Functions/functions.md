@@ -11,19 +11,18 @@
 *   You can pass data, known as parameters, into a function.
 *   A function can return data as a result
 
-    ``` HELLO ```
+```
 #Python Sample program to display the use of functions
-#This function checks whether the number entered is multiple of 5
+#This function checks whether the number entered is multiple of 5```
 ```def check( x ):
     if (x % 5 == 0):
         print "Yes"
     else:
         print "No"```
   
-# Driver code
+```#Driver code
 evenOdd(2)
-evenOdd(3)
-   ```
+evenOdd(3)```
     
 
 
@@ -66,17 +65,17 @@ Before heading further to module 1, It is important to know where the functions 
 # The Python Standard Library
 
 
-# (Source:[https://docs.python.org/3/library/](https://docs.python.org/3/library/))
+(Source:[https://docs.python.org/3/library/](https://docs.python.org/3/library/))
 
 While [The Python Language Reference](https://docs.python.org/3/reference/index.html#reference-index) describes the exact syntax and semantics of the Python language, this library reference manual describes the standard library that is distributed with Python. It also describes some of the optional components that are commonly included in Python distributions.
 
 
-## TASK 1: Create a python script to set a reminder in about a fix duration of time that opens a youtube video using the concept of functions in python. 
+### Task 1: Create a python script to set a reminder in about a fix duration of time that opens a youtube video using the concept of functions in python. 
 
 (This can be used to take a break from long and continuous computer hours)
 
 
-## Assistance: 
+### Assistance: 
 
 
 
@@ -84,12 +83,12 @@ While [The Python Language Reference](https://docs.python.org/3/reference/index.
 *   Check on Resources to get the solution 
 
 
-## TASK 2: There is a message to be decoded. There have been pictures of file format .jpg which have to be renamed in such a way that the digits in the names have to be removed which upon sorting would show a message. There is a folder containing all those images along this lesson. Write a python script to do the needful 
+### TASK 2: There is a message to be decoded. There have been pictures of file format .jpg which have to be renamed in such a way that the digits in the names have to be removed which upon sorting would show a message. There is a folder containing all those images along this lesson. Write a python script to do the needful 
 
 (Wait What??....Yes! This can be playful with your friends.)
 
 
-## Assistance: 
+### Assistance: 
 
 
 
@@ -107,6 +106,6 @@ While [The Python Language Reference](https://docs.python.org/3/reference/index.
 *   [https://docs.python.org/2/library/os.html](https://docs.python.org/2/library/os.html)
 
 
-## Refer to [https://data-flair.training/blogs/python-built-in-functions/](https://data-flair.training/blogs/python-built-in-functions/) for a list of python inbuilt functions and explore their potential.
+Refer to [https://data-flair.training/blogs/python-built-in-functions/](https://data-flair.training/blogs/python-built-in-functions/) for a list of python inbuilt functions and explore their potential.
 
 
