@@ -11,16 +11,15 @@
 *   You can pass data, known as parameters, into a function.
 *   A function can return data as a result
 
-```
-#Python Sample program to display the use of functions
-#This function checks whether the number entered is multiple of 5```
-```def check( x ):
+
+### Python Sample program to display the use of functions:
+```#This function checks whether the number entered is multiple of 5 
+def check( x ):
     if (x % 5 == 0):
         print "Yes"
     else:
-        print "No"```
-  
-```#Driver code
+        print "No"
+#Driver code
 evenOdd(2)
 evenOdd(3)```
     
