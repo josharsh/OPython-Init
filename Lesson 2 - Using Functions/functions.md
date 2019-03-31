@@ -3,7 +3,7 @@
 
 ## Brief Introduction:
 
-(Source: [https://www.geeksforgeeks.org/functions-in-python/](https://www.geeksforgeeks.org/functions-in-python/))
+(Source: [https://www.w3schools.com/python/python_functions.asp](https://www.w3schools.com/python/python_functions.asp))
 
 
 
@@ -23,7 +23,8 @@ def check( x ):
 # Driver code
 evenOdd(2)
 evenOdd(3)
-```
+   ```
+    
 
 
 
