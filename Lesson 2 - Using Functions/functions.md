@@ -12,7 +12,7 @@
 *   A function can return data as a result
 
     ```
-# Python Sample program to display the use of functions
+#Python Sample program to display the use of functions
 #This function checks whether the number entered is multiple of 5
 def check( x ):
     if (x % 5 == 0):
