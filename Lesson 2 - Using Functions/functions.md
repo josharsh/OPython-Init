@@ -13,7 +13,8 @@
 
 
 ### Python Sample program to display the use of functions:
-```#This function checks whether the number entered is multiple of 5 
+```
+#This function checks whether the number entered is multiple of 5 
 def check( x ):
     if (x % 5 == 0):
         print "Yes"
@@ -21,10 +22,8 @@ def check( x ):
         print "No"
 #Driver code
 evenOdd(2)
-evenOdd(3) ```
-
-``` HELLO ```
-    
+evenOdd(3)
+```
 
 
 
