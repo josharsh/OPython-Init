@@ -21,7 +21,7 @@ def check( x ):
         print "No"
 #Driver code
 evenOdd(2)
-evenOdd(3)```
+evenOdd(3) ```
     
 
 
