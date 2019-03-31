@@ -1,7 +1,6 @@
 
 
-# 
-    Object-Oriented Basics Using Python
+# Object-Oriented Basics Using Python
 
 (Source: [https://www.tutorialspoint.com/python/python_classes_objects.htm](https://www.tutorialspoint.com/python/python_classes_objects.htm))
 
