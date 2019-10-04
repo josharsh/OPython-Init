@@ -14,7 +14,11 @@ Before you head forward, it is important to note that there are two major Python
 *   High-level
 *   Emphasizes code readability
 *   Interpreted
+*   Dynamically typed language(No need to mention data type based on value assigned, it takes data type)
+*   Object-oriented language
 *   Large Community Support
+*   Portable across Operating systems
+*   
 *   And many other reasons you will discover yourself while learning it. 
 
 
@@ -32,6 +36,7 @@ For a detailed tutorial on installation refer here or any other site on the Inte
 
 
 *   Python can be used on a server to create web applications.
+*   Python can be used GUI based desktop applications.
 *   Python can be used alongside software to create workflows.
 *   Python can connect to database systems. It can also read and modify files.
 *   Python can be used to handle big data and perform complex mathematics.
