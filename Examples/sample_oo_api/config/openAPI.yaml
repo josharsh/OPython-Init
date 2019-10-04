@@ -1,0 +1,265 @@
+openapi: 3.0.1
+info:
+  version: 0.0.1
+  title: API World_X
+  description: "Sample API using the free Oracle World_X DB. All objects referenced are JSON objects."
+paths:
+  /getCity:
+    summary: Returns information about a given city
+    description: Returns information about a given city
+    get:
+      summary: Returns information about a given city
+      parameters: 
+        - in: query
+          name: name
+          schema:
+            type: string
+          required: true
+          description: the name of the city.
+      description: Returns information about a given city
+      operationId: controllers.api.get_city
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: number
+                  Name:
+                    type: string
+                  CountryCode: 
+                    type: string
+                  Info:
+                    type: object
+                example:
+                    id: 1
+                    Name: Kabul
+                    CountryCode: AFG
+                    Info: object
+                  
+      tags:
+        - city
+  /getCityAll:
+    summary: Returns all city information
+    description: Returns all city information
+    get:
+      summary: Returns all city information
+      description: Returns all city information
+      operationId: controllers.api.get_city_all
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: number
+                  Name:
+                    type: string
+                  CountryCode: 
+                    type: string
+                  Info:
+                    type: object
+                example: [
+                  {
+                    "id": 1,
+                    "Name": "Kabul",
+                    "CountryCode": "AFG",
+                    "Info": object
+                  },
+                  {
+                    "id": 1,
+                    "Name": "Kabul",
+                    "CountryCode": "AFG",
+                    "Info": object
+                  }
+                ]
+      tags:
+        - city
+  /getCountry:
+    summary: Returns information about a given country
+    description: Returns information about a given country
+    get:
+      summary: Returns information about a given country
+      parameters: 
+        - in: query
+          name: name
+          schema:
+            type: string
+          required: true
+          description: the name of the country
+      description: Returns information about a given country
+      operationId: controllers.api.get_country
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  Code:
+                    type: string
+                  Name: 
+                    type: string
+                  Capital:
+                    type: string
+                  Code2:
+                    type: string
+                example:
+                    Code: ABW
+                    Name: Aruba
+                    Capital: 129
+                    Code2: AW
+        
+          
+      tags:
+        - country
+  /getCountryAll:
+    summary: Returns all country information
+    description: Returns all country information
+    get:
+      summary: Returns all country information
+      description: Returns all country information
+      operationId: controllers.api.get_country_all
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  id:
+                    type: number
+                  Name:
+                    type: string
+                  CountryCode: 
+                    type: string
+                  Info:
+                    type: object
+                example: [
+                  {
+                    "Code": 1,
+                    "Name": "Armenia",
+                    "Capital": 126,
+                    "Code2": "AM"
+                  },
+                  {
+                    "Code": 1,
+                    "Name": "American Samoa",
+                    "Capital": 54,
+                    "Code2": "AS"
+                  }
+                ]
+          
+      tags:
+        - country
+  /getCountryInfo:
+    summary: Returns detailed information about a given country
+    description: Returns detailed information about a given country
+    get:
+      summary: Returns detailed information about a given country
+      parameters: 
+        - in: query
+          name: name
+          schema:
+            type: string
+          required: true
+          description: the name of the country
+      description: Returns detailed information about a given country
+      operationId: controllers.api.get_countryinfo
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  doc:
+                    type: string
+                  _id:
+                    type: string
+                example:
+                  doc: dataMap
+                  _id: ABW
+      tags:
+        - country
+  /getCountryLanguage:
+    summary: Returns language information about a given country
+    parameters:
+      - in: query
+        name: name
+        schema:
+          type: string
+        required: true
+        description: the name of the language
+    description: Returns language information about a given country
+    get:
+      summary: 'Returns language information about a given country'
+      description: 'Returns language information about a given country'
+      operationId: controllers.api.get_countrylanguage
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  CountryCode:
+                    type: string
+                  Language:
+                    type: string
+                  IsOfficial: 
+                    type: string
+                    enum: ['T', 'F']
+                  Percentage: 
+                    type: number
+                example:
+                  CountryCode: ABW
+                  Language: Dutch
+                  IsOfficial: T
+                  Percentage: 5.3
+      tags:
+        - language
+  /getCountryLanguageAll:
+    summary: Returns all country language information
+    description: Returns all country language information
+    get:
+      summary: 'Returns all country language information'
+      description: 'Returns all country language information'
+      operationId: controllers.api.get_countrylanguage_all
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  CountryCode:
+                    type: string
+                  Language:
+                    type: string
+                  IsOfficial: 
+                    type: string
+                    enum: ['T', 'F']
+                  Percentage: 
+                    type: number
+                example: [
+                    {
+                      "CountryCode": "ABW",
+                      "Language": "Dutch",
+                      "IsOfficial": "T",
+                      "Percentage": 5.3
+                    }
+                  ]
+      tags:
+        - language

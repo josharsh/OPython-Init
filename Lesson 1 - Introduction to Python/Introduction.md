@@ -12,7 +12,7 @@ Before you head forward, it is important to note that there are two major Python
 *   Simple to Learn
 *   Free & open source
 *   High-level
-*   Emphasis on Code Readaability
+*   Emphasizes code readability
 *   Interpreted
 *   Dynamically typed language(No need to mention data type based on value assigned, it takes data type)
 *   Object-oriented language
