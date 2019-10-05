@@ -2,7 +2,6 @@
 from dash import Dash
 from dash.dependencies import Input, Output
 
-
 class Hello:
     '''
     Callback that greets the visitor

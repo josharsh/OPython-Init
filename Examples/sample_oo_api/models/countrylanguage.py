@@ -4,4 +4,3 @@ from orator import Model
 
 class countrylanguage(Model):
     __table__ = 'countrylanguage'
-    pass
