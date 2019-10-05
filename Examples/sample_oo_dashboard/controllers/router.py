@@ -38,11 +38,10 @@ class Router():
                 Session['page'] = '/'
                 return Layouts.index()
 
-            elif pathname == '/hello':
+            if pathname == '/hello':
                 Session['page'] = '/hello'
                 return Layouts.hello()
 
-            else:
-                # Default if no pathname is matched
-                Session['page'] = '/404'
-                return Layouts.not_found()
+            # Default if no pathname is matched
+            Session['page'] = '/404'
+            return Layouts.not_found()
