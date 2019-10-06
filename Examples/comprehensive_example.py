@@ -1,8 +1,19 @@
 """
 This is a comprehensive example of classes, instantiating its objects
 inside another class, and using its properties, static variables and static methods
-"""
 
+What this example demonstrates:
+- Idea of class, object, static / class variables, properties
+Instructions:
+- Create the classes Student, Teacher, Course, Degree and Program.
+- Each class should have a variable for the no. of students, teachers, courses, degrees and programs respectively
+- The private members of the class should be encapsulated via properties
+- The Course class should be able to hold the number of students enrolled in that specific course
+- Similarly, the Degree class should hold the number of courses and the Program class should hold the number of degrees
+- Instantiate 4 students, 4 teachers, 2 courses to demonstrate the use of classes in this context
+- At the end of this exercise, display the total number of students, teachers and courses, the name of
+  students enrolled in each course.
+"""
 
 class Student(object):
     # this is a static or class variable
