@@ -180,9 +180,8 @@ class Program(object):
         return Program.__program_count
 
 
-# use this if you want to run the code following this only from
-# within your current script!
-if __name__ == '__main__':
+# main entry point function
+def main():
     # Let's create four students
     joe = Student("Joe", 15)
     mark = Student("Mark", 16)
@@ -224,3 +223,9 @@ if __name__ == '__main__':
     for course in btech.courses:
         students = [student.name for student in course.students_enrolled]
         print('Students enrolled in {0} course: {1}'.format(course.course_name, students))
+
+
+# use this if you want to run the code following this only from
+# within your current script!
+if __name__ == '__main__':
+    main()
