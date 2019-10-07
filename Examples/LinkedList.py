@@ -16,6 +16,7 @@ class LinkedList:
     # List object
     def __init__(self):
         self.head = None
+    # Here self.head is basically initialised with a null value
     # This function prints contents of linked list
     # starting from head
     def printList(self):
