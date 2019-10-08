@@ -1,5 +1,7 @@
 #This is a basic Stack data structure usin OOP programming in python.
-#This program is a bare bones version but can be improved
+#A stack is a data structure which uses a LIFO(Last In First Out) order to preform operations.
+#It is used in many cases. For example internet search history and creating programming languages.
+#This program is a bare bones version but can be improved and added to
 
 class Stack(object):
 
