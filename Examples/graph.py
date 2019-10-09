@@ -1,3 +1,10 @@
+#Graph implementation using OOPS in Python
+#Graph Class
+
+'''A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
+
+Formally, a graph is a pair of sets (V, E), where V is the set of vertices and E is the set of edges, connecting the pairs of vertices.'''
+
 class Graph(object):
 
     def __init__(self, graph_dict=None):
@@ -70,27 +77,31 @@ if __name__ == "__main__":
           "f" : []
         }
 
+    '''Here, graph is a an object of class Grpah with the constructors passed with the parameter dictionary defined above as g
+containing the vertices as key of dictionary and the values of key representing the adjacent neighbors. It will call the __str__ function with the dictionary
+to form the respecting edges of the graph'''
 
     graph = Graph(g)
 
+    #Printing the nodes of the graph
     print("Vertices of graph:")
     print(graph.vertices())
-
+#Printing the edges of the graph
     print("Edges of graph:")
     print(graph.edges())
-
+#Adding a new vertex to the above graph using  member function add_vertex
     print("Add vertex:")
     graph.add_vertex("z")
-
+#Printing the new list of nodes
     print("Vertices of graph:")
     print(graph.vertices())
- 
+ #Adding a new edge to the graph from a node to z
     print("Add an edge:")
     graph.add_edge({"a","z"})
     
     print("Vertices of graph:")
     print(graph.vertices())
-
+#Printing all the edges present in the graph
     print("Edges of graph:")
     print(graph.edges())
 
@@ -100,4 +111,24 @@ if __name__ == "__main__":
     print(graph.vertices())
     print("Edges of graph:")
     print(graph.edges())
+    
+    ''' The corresponding output of the above:
+    Vertices of graph:
+    ['a', 'b', 'c', 'd', 'e', 'f']
+    Edges of graph:
+    [{'d', 'a'}, {'b', 'c'}, {'c'}, {'c', 'd'}, {'e', 'c'}]
+    Add vertex:
+    Vertices of graph:
+    ['a', 'b', 'c', 'd', 'e', 'f', 'z']
+    Add an edge:
+    Vertices of graph:
+    ['a', 'b', 'c', 'd', 'e', 'f', 'z']
+    Edges of graph:
+    [{'d', 'a'}, {'b', 'c'}, {'c'}, {'c', 'd'}, {'e', 'c'}, {'z', 'a'}]
+    Adding an edge {"x","y"} with new vertices:
+    Vertices of graph:
+    ['a', 'b', 'c', 'd', 'e', 'f', 'z', 'y']
+    Edges of graph:
+    [{'d', 'a'}, {'b', 'c'}, {'c'}, {'c', 'd'}, {'e', 'c'}, {'z', 'a'}, {'y', 'x'}]'''
+
   
