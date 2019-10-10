@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests 
 import pandas as pd
-import sqlite3
 
 page = requests.get("http://forecast.weather.gov/MapClick.php?lat=37.7772&lon=-122.4168")
 soup = BeautifulSoup(page.content, 'html.parser')
