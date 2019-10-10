@@ -10,13 +10,13 @@
 *   A function is a block of code which only runs when it is called.
 *   You can pass data, known as parameters, into a function.
 *   A function can return data as a result
-
+*   A function may be defined or imported from a library for use
 
 ### Python Sample program to display the use of functions:
 ```
 #This function checks whether the number entered is multiple of 5 
 def check( x ):
-    if (x % 5 == 0):
+    if (x % 5 == 0):        
         print "Yes"
     else:
         print "No"
@@ -39,13 +39,14 @@ evenOdd(3)
 ## Creating a Function
 
 In Python a function is defined using the `def` keyword:
+    (Make sure you follow proper indentation and format)
 
 
 ```
 def my_function():
   print("I am Function")
 ```
-
+Note : A function may not necessarily 'return' a value.
 
 
 ## Calling a Function
