@@ -18,9 +18,9 @@ Before you head forward, it is important to note that there are two major Python
 *   Object-oriented language
 *   Large Community Support
 *   Portable across Operating systems
-*   
+*   Very close to writing pseudo-code
 *   And many other reasons you will discover yourself while learning it. 
-
+*   Cross Platform Compatibility
 
 ## Downloading and Installing Python:
 
