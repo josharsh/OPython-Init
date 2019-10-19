@@ -59,7 +59,20 @@ def my_function():
 
 my_function()
 ```
+-----
+## function to check if a number is prime or not
 
+ def prime(n):
+    c=0
+    for i in range(2,n+1):
+      if (n%i==0):
+        c+=1
+    if (c==1):
+      print("number is prime")
+    else:
+      print(" not prime")
+
+-----
 
 
 #### Having done a short and crisp refresher on functions in python, this Lesson will now walk you through some inbuilt functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
