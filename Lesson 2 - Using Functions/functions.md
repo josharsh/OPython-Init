@@ -7,14 +7,14 @@
 
 
 
-*   A function is a block of code which only runs when it is called.
+*   A function is a block of code which only runs when it is called.It performs a specific task.
 *   You can pass data, known as parameters, into a function.
-*   A function can return data as a result
+*   A function can return data as a result to the calling function.
 
 
 ### Python Sample program to display the use of functions:
 ```
-#This function checks whether the number entered is multiple of 5 
+#This function checks whether the entered number is a multiple of 5 or not:
 def check( x ):
     if (x % 5 == 0):
         print "Yes"
@@ -35,7 +35,7 @@ In Python a function is defined using the `def` keyword:
 
 ```
 def my_function():
-  print("I am Function")
+  print("I am a Function")
 ```
 
 
@@ -54,12 +54,12 @@ my_function()
 
 
 
-#### Having done a short and crisp refresher on functions in python, this Lesson will now walk you through some inbuilt functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
+#### With this short and crisp refresher on functions in python, the Lesson will now walk you through some in-built functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
 
 
 # MODULE 1: CREATING  A REMINDER APP
 
-Before heading further to module 1, It is important to know where the functions of python are stored. Python uses the concept of libraries to store functions and classes (later in this course)
+Before heading further to module 1, It is important to know where the functions of python are stored. Python uses the concept of libraries to store functions and classes (later in this course).
 
 
 # The Python Standard Library
