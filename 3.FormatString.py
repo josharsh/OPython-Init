@@ -1,0 +1,5 @@
+print("tejus is awesome".capitalize())
+print("TEJUS IS KING".lower())
+print("tejus is hot".upper())
+print("Harry potter and the half-blood prince".title())
+print("AVENGER:the war of infinity".swapcase())
