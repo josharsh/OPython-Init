@@ -23,7 +23,8 @@ For the Tasks study in depth about the problem statements, conduct online resear
     *   Task 2
 *   Lesson 3: Introduction To OOP
     *   About
-*   Lesson 2: OOP Implementation
+*   Lesson 4: OOP Implementation
     *   Task 1 
     *   Task 2
-
+*   Lesson 5: Web Sraping
+    *   Web Scraping - Introduction 
