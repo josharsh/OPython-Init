@@ -18,7 +18,8 @@ Before you head forward, it is important to note that there are two major Python
 *   Object-oriented language
 *   Large Community Support
 *   Portable across Operating systems
-*   
+*   Easy Syntax
+*   A variety of packages for doing different things
 *   And many other reasons you will discover yourself while learning it. 
 
 
