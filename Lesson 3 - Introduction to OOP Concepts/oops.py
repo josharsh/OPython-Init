@@ -16,7 +16,7 @@ class Tiger:
         self.name = name
         self.age = age
 
-# instantiate the Parrot class
+# instantiate the Tiger class
 blu = Tiger("Blu", 10)
 woo = Tiger("Woo", 15)
 
@@ -29,8 +29,8 @@ print("{} is {} years old".format( blu.name, blu.age))
 print("{} is {} years old".format( woo.name, woo.age))
 
 '''OUTPUT
-Blu is a bird
-Woo is also a bird
+Blu is a tiger
+Woo is also a tiger
 Blu is 10 years old
 Woo is 15 years old'''
 
