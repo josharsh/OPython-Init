@@ -1,4 +1,4 @@
-word = "Tejus is a Genius"
+word = "Hey Python"
 print(len(word))
 
 len_word = len(word)

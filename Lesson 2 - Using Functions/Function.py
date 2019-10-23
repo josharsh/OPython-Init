@@ -1,7 +1,7 @@
 def say(phrase):
     print(phrase)
     
-say("Teju")
+say("Python")
 
 #############################################################
 
