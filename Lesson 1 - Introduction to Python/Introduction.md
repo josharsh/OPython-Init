@@ -18,7 +18,6 @@ Before you head forward, it is important to note that there are two major Python
 *   Object-oriented language
 *   Large Community Support
 *   Portable across Operating systems
-*   
 *   And many other reasons you will discover yourself while learning it. 
 
 
@@ -32,8 +31,6 @@ For a detailed tutorial on installation refer here or any other site on the Inte
 ## Python Capabilities:
 
 (Source: [https://www.w3schools.com/python/python_intro.asp](https://www.w3schools.com/python/python_intro.asp))
-
-
 
 *   Python can be used on a server to create web applications.
 *   Python can be used GUI based desktop applications.
