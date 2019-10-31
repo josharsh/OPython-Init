@@ -61,6 +61,7 @@ Next, we set the url to the website and access the site with our requests librar
 ```
 url = 'http://web.mta.info/developers/turnstile.html'
 response = requests.get(url)
+print(response)
 ```
 
 If the access was successful, you should see the following output:
