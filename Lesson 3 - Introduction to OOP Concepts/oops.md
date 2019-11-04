@@ -69,13 +69,25 @@ class Parrot:
         self.age = age
 
 # instantiate the Parrot class
+~~~
 blu = Parrot("Blu", 10)
 woo = Parrot("Woo", 15)
-
+~~~
 # access the class attributes
+~~~
 print("Blu is a {}".format(blu.__class__.species))
 print("Woo is also a {}".format(woo.__class__.species))
-
+~~~
 # access the instance attributes
+~~~
 print("{} is {} years old".format( blu.name, blu.age))
 print("{} is {} years old".format( woo.name, woo.age))
+~~~
+
+## **Python Inheritance **
+
+(Source: [https://www.geeksforgeeks.org/oop-in-python-set-3-inheritance-examples-of-object-issubclass-and-super/](https://www.geeksforgeeks.org/oop-in-python-set-3-inheritance-examples-of-object-issubclass-and-super/)
+
+Inheritance is one of the core concepts of object-oriented programming (OOP) languages. It is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
+
+
