@@ -21,12 +21,20 @@ def check( x ):
     else:
         print "No"
 #Driver code
-evenOdd(2)
-evenOdd(3)
+check(2)
+check(3)
 ```
 
+In python we can also assign functions to variables
 
+```
+evenOdd = check
+#Driver code
+evenOdd(2)
+evenOdd(3)
+#the output will be same as of previous function calls: check(2) , check(3)
 
+```
 
 ## Creating a Function
 
