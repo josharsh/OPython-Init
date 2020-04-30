@@ -12,7 +12,7 @@ We will be downloading turnstile data from this site:
 http://web.mta.info/developers/turnstile.html
 ```
 
-Turnstile data is compiled every week from May 2010 to present, so hundreds of .txt files exist on the site. Below is a snippet of what some of the data looks like. Each date is a link to the .txt file that you can download.
+Turnstile data is compiled every week from May 2010 to present, so hundreds of .txt files exist on the site. Each date is a link to the .txt file that you can download.
 
 It would be torturous to manually right click on each link and save to your desktop. Luckily, there’s web-scraping!
 
@@ -102,4 +102,3 @@ time.sleep(1)
 ```
 
 Now that we understand how to download a file, let’s try downloading the entire set of data files with a for loop. The code below contains the entire set of code for web scraping the NY MTA turnstile data.
-
