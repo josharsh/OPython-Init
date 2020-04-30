@@ -88,7 +88,7 @@ one_a_tag = soup.findAll('a')[36]
 link = one_a_tag['href']
 ```
 
-This code saves ‘data/nyct/turnstile/turnstile_180922.txt’ to our variable link. The full url to download the data is actually http://web.mta.info/developers/**data/nyct/turnstile/turnstile_180922.txt which I discovered by clicking on the first data file on the website as a test. We can use our `urllib.request library to download this file path to our computer. We provide request.urlretrieve with two parameters: file url and the filename. For my files, I named them “turnstile_180922.txt”, “turnstile_180901”, etc.
+This code saves ‘data/nyct/turnstile/turnstile_180922.txt’ to our variable link. The full url to download the data is actually http://web.mta.info/developers/data/nyct/turnstile/turnstile_180922.txt which I discovered by clicking on the first data file on the website as a test. We can use our `urllib.request library to download this file path to our computer. We provide request.urlretrieve with two parameters: file url and the filename. For my files, I named them “turnstile_180922.txt”, “turnstile_180901”, etc.
 
 ```
 download_url = 'http://web.mta.info/developers/'+ link
