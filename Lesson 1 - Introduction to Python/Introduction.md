@@ -1,4 +1,4 @@
-# **Python: An Introduction. **
+# Python: An Introduction.
 
 Designed by Guido van Rossum, Python is a popular open source programming language released in 1991. It is a  general-purpose, high-level programming language maintained by the Python Software Foundation. 
 
