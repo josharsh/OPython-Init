@@ -23,7 +23,7 @@ Python has been an object-oriented language since it existed. Because of this, c
 *   Object − A unique instance of a data structure that's defined by its class. An object comprises both data members (class variables and instance variables) and methods.
 *   Operator overloading − The assignment of more than one function to a particular operator.
 
-EXAMPLE: 
+EXAMPLE:
 
 
 ```
@@ -35,7 +35,7 @@ class Student:
       self.name = name
       self.marks = marks
       Student.stuCount += 1
-   
+
    def displayCount(self):
      print "Total Student %d" % Student.stuCount
 
@@ -54,3 +54,38 @@ While the class is the blueprint, an _instance_ is a copy of the class with _act
 Put another way, a class is like a form or questionnaire. It defines the needed information. After you fill out the form, your specific copy is an instance of the class; it contains actual information relevant to you.
 
 You can fill out multiple copies to create many different instances, but without the form as a guide, you would be lost, not knowing what information is required. Thus, before you can create individual instances of an object, we must first specify what is needed by defining a class.
+
+### CREATING CLASS AND OBJECT IN PYTHON
+
+```
+class Parrot:
+
+    # class attribute
+    species = "bird"
+
+    # instance attribute
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+```
+# instantiate the Parrot class
+~~~
+blu = Parrot("Blu", 10)
+woo = Parrot("Woo", 15)
+~~~
+# access the class attributes
+~~~
+print("Blu is a {}".format(blu.__class__.species))
+print("Woo is also a {}".format(woo.__class__.species))
+~~~
+# access the instance attributes
+~~~
+print("{} is {} years old".format( blu.name, blu.age))
+print("{} is {} years old".format( woo.name, woo.age))
+~~~
+
+## **Python Inheritance **
+
+(Source: [https://www.geeksforgeeks.org/oop-in-python-set-3-inheritance-examples-of-object-issubclass-and-super/](https://www.geeksforgeeks.org/oop-in-python-set-3-inheritance-examples-of-object-issubclass-and-super/)
+
+Inheritance is one of the core concepts of object-oriented programming (OOP) languages. It is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.

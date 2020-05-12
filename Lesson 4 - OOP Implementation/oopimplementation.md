@@ -1,7 +1,7 @@
 # OOP Implementation Using Python
 
 
-## TASK 1: Refer Internet for turtle module of Python. Study about Class implementation from given repository resources and write a python script for making an animation of multiple squares deviating at an angle to form a circle.
+## TASK 1: Refer the Internet for turtle module of Python. Study about Class implementation from given repository resources and write a python script for making an animation of multiple squares deviating at an angle to form a circle.
 
 
 ## Assistance: 
