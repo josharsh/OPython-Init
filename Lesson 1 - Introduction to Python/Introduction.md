@@ -40,3 +40,11 @@ For a detailed tutorial on installation refer to this or any other site on the I
 *   Python can be used to handle big data and perform complex mathematics.
 *   Python can be used for rapid prototyping, or for production-ready software development.
 
+## Great places to learn Python:
+
+* Twilio Quest: https://www.twilio.com/quest
+* Codecademy: https://www.codecademy.com/
+* Free Code Camp: https://www.freecodecamp.org/
+* General Assembly: https://generalassemb.ly/
+* Khan Academy: https://www.khanacademy.org/
+
