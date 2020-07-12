@@ -55,3 +55,30 @@ for x in fruits:
 for i in range(6):
   print(i)
 
+# While loop traversing a list
+i = 0
+while i < len(fruits) :
+    print(fruits[i])
+    i = i + 1     #or i+=1
+
+# While loop iterating 6 times
+i = 0 
+while i < 6 :
+	print(i)
+	i = i + 1
+
+# If - Else statements 
+i = 0
+if i == 0 :
+	print(" i is equal 0")
+else :
+	print(" i is not equal to 0")
+
+# Use of elif 
+i = 1
+if i == 0 :
+	print(" i is equal 0")
+elif i == 1 :
+	print(" i is equal 1")
+else :
+	print(" i is neither 0 nor 1")
