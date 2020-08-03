@@ -18,3 +18,9 @@ print(word[:-7])            #ends before -7
 print(word[::-1])            #print string in reverse
 #sotohp
 print(word[5::-1])            #print reverse till 5
+
+#Slicing string into list
+
+sentence = "Hello world"
+list1 = sentence.split()
+print (list1)
