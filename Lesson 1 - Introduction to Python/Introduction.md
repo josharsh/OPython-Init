@@ -38,5 +38,5 @@ For a detailed tutorial on installation refer to this or any other site on the I
 *   Python can be used alongside software to create workflows.
 *   Python can connect to database systems. It can also read and modify files.
 *   Python can be used to handle big data and perform complex mathematics.
-*   Python can be used for rapid prototyping, or for a production-ready software development.
+*   Python can be used for rapid prototyping, or for production-ready software development.
 
