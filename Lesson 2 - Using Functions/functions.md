@@ -60,7 +60,21 @@ def my_function():
 my_function()
 ```
 
+## Parameters
+Information can be passed to functions as parameter.
 
+Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.
+
+The following example has a function with one parameter (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:
+
+```
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+```
 
 #### With this short and crisp refresher on functions in python, the Lesson will now walk you through some in-built functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
 
