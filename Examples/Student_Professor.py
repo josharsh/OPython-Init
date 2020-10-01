@@ -50,9 +50,12 @@ class Professor:
 
 	# Constructor
 	def __init__(self,Name,Subject):
-		self.Name = Name
-		self.Subject = Subject
-		self.Students = []
+		#Instead of multiple assignments (ie. self.Name = Name), you can use the
+		#.update() method on self.__dict__ to automatically do that. The dictionary
+		#comprehension that were passing as a parameter to .update() is just creating
+		#a dictionary with all of the __init__() parameters except for self as keys,
+		#and the arguments passed to those parameters as values.
+		self.__dict__.update({k: v for k,v in locals().items() if k != 'self'})
 
 	#SETTERS
 	def set_Students(self,Students_List):
