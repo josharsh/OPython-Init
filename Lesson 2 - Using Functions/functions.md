@@ -62,6 +62,41 @@ my_function()
 
 
 
+## Recursion
+
+Python also accepts function recursion, which means a defined function can call itself.
+
+Recursion is a common mathematical and programming concept. It means that a function calls itself. This has the benefit of meaning that you can loop through data to reach a result.
+
+The developer should be very careful with recursion as it can be quite easy to slip into writing a function which never terminates, or one that uses excess amounts of memory or processor power. However, when written correctly recursion can be a very efficient and mathematically-elegant approach to programming.
+
+In the next example, there's both a recursive an iterative approach to finding the factorial of a number. In case you forgot, a factorial is the product of an integer and all the integers below it
+
+For eg. 5! = 5\*4\*3\*2\*1 = 120
+
+
+
+```
+def factorial_iterative(number = 1):
+    result = 1
+    for i in range(1, number + 1):
+        result *= i
+    return result
+
+
+def factorial_recursive(number = 1):
+    if number == 0:
+        return 1
+    elif number == 1:
+        return 1
+    else:
+        return number*factorial_recursive(number - 1)
+```
+
+
+
+However, what would happen if we passed a negative or floating point number to these functions, Well it's up to you to find a way to fix that (Hint: Use 'if' / 'elif' statements)
+
 #### With this short and crisp refresher on functions in python, the Lesson will now walk you through some in-built functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
 
 
