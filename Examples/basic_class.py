@@ -3,6 +3,14 @@
 # First we need to declare the class that will server us as a "template".
 class Plane:
     def __init__(self, model, seats):
+        """
+        Initialize the plane.
+
+        Args:
+            self: (todo): write your description
+            model: (todo): write your description
+            seats: (todo): write your description
+        """
         # The init function is the function executed when we first create (instanciate)
         # the class in the main programm. When we instanciate a class we have an object.
         # In this init we declare the variables that we are going to use for the class.
@@ -12,20 +20,51 @@ class Plane:
     # This two functions will return us the value of the object when we call them on the
     # main program.
     def model(self):
+        """
+        Return a model
+
+        Args:
+            self: (todo): write your description
+        """
         return self.model
 
     def seats(self):
+        """
+        : return a list of - segments.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.seats
 
     # And with this two functions we can change the values of the class variables.
     def change_model(self, model):
+        """
+        Change the model.
+
+        Args:
+            self: (todo): write your description
+            model: (todo): write your description
+        """
         self.plane_model = model
 
     def change_seats(self, seats):
+        """
+        Change the number of segments.
+
+        Args:
+            self: (todo): write your description
+            seats: (todo): write your description
+        """
         self.number_seats = seats
 
 
 def main():
+    """
+    Main function.
+
+    Args:
+    """
     # To use a class, first we have to create an object of that class (instanciate it).
     # And since we defined the init function with two parameters, we have to pass them
     # to the class. As you can see here we have an object "boeing" and an "object" cesna,

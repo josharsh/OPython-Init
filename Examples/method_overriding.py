@@ -14,11 +14,23 @@ and add feed method with different implementation
 
 class Animal:
     def feed(self):
+        """
+        Feed feed ]
+
+        Args:
+            self: (todo): write your description
+        """
         print('I eat everything whatever you feed me')
 
 
 class Vegetarian(Animal):
     def feed(self):
+        """
+        Feed feed ]
+
+        Args:
+            self: (todo): write your description
+        """
         print('I eat only vegetables')
 
 

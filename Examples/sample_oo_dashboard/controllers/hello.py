@@ -8,6 +8,13 @@ class Hello:
     '''
 
     def __init__(self, app: Dash):
+        """
+        Initialize the application.
+
+        Args:
+            self: (todo): write your description
+            app: (todo): write your description
+        """
         @app.callback(
             Output('hello_output', 'children'),
             [Input('hello_input', 'value')]

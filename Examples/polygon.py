@@ -26,10 +26,23 @@ class Point(object):
 class Polygon(object):
 	"""this class is a simple polygon, in other words, a list of points"""
 	def __init__(self, points):
+     """
+     Initialize the points
+
+     Args:
+         self: (todo): write your description
+         points: (todo): write your description
+     """
 		self.points = points
 
 	"""show polygon about the polygon"""
 	def info(self):
+     """
+     Return the info
+
+     Args:
+         self: (todo): write your description
+     """
 		for p in self.points:
 			p.info()
 

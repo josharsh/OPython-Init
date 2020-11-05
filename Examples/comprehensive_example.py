@@ -22,6 +22,14 @@ class Student(object):
     # this is the constructor. Note that self implies that specific
     # instance or object of the class
     def __init__(self, name, age):
+        """
+        Initialize a new instance.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+            age: (str): write your description
+        """
         # here, we assign the name and age given through the constructor
         # to the instance variables name and age respectively
         self.__name = name
@@ -31,22 +39,53 @@ class Student(object):
     # use properties to get and set a private variable - data encapsulation
     @property
     def name(self):
+        """
+        The name of the name
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__name
 
     @name.setter
     def name(self, name):
+        """
+        Sets the name of a name.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+        """
         self.__name = name
 
     @property
     def age(self):
+        """
+        Return the age.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__age
 
     @age.setter
     def age(self, age):
+        """
+        Set the age.
+
+        Args:
+            self: (todo): write your description
+            age: (str): write your description
+        """
         self.__age = age
 
     @staticmethod
     def student_count():
+        """
+        Returns the number of country.
+
+        Args:
+        """
         return Student.__student_count
 
 
@@ -57,6 +96,14 @@ class Teacher(object):
 
     # constructor
     def __init__(self, name, course):
+        """
+        Initialize the instance.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+            course: (todo): write your description
+        """
         # let's use __ to represent private variables
         self.__name = name
         self.__course = course
@@ -65,22 +112,53 @@ class Teacher(object):
     # use properties to get and set a private variable - data encapsulation
     @property
     def name(self):
+        """
+        The name of the name
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__name
 
     @name.setter
     def name(self, name):
+        """
+        Sets the name of a name.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+        """
         self.__name = name
 
     @property
     def course(self):
+        """
+        : return : class :.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__course
 
     @course.setter
     def course(self, course):
+        """
+        Add a new : param course : course object
+
+        Args:
+            self: (todo): write your description
+            course: (todo): write your description
+        """
         self.__course = course
 
     @staticmethod
     def teacher_count():
+        """
+        Return the number of items in the number of milliseconds.
+
+        Args:
+        """
         return Teacher.__teacher_count
 
 
@@ -91,6 +169,13 @@ class Course(object):
 
     # constructor
     def __init__(self, course_name):
+        """
+        Initialize the course.
+
+        Args:
+            self: (todo): write your description
+            course_name: (str): write your description
+        """
         self.__course_name = course_name
         # let's store an array of students enrolled for a specific course
         self.__students_enrolled = []
@@ -99,31 +184,75 @@ class Course(object):
 
     @property
     def course_name(self):
+        """
+        Returns the name of the course
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__course_name
 
     @course_name.setter
     def course_name(self, name):
+        """
+        : param name of the course
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+        """
         self.__course_name = name
 
     @property
     def students_enrolled(self):
+        """
+        : return : class asn.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__students_enrolled
 
     @students_enrolled.setter
     def students_enrolled(self, students):
+        """
+        Sets the underlying byte string.
+
+        Args:
+            self: (todo): write your description
+            students: (todo): write your description
+        """
         self.__students_enrolled = students
 
     @property
     def teacher(self):
+        """
+        Teacher.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__teacher
 
     @teacher.setter
     def teacher(self, teacher):
+        """
+        Unacher from this context.
+
+        Args:
+            self: (todo): write your description
+            teacher: (todo): write your description
+        """
         self.__teacher = teacher
 
     # static, since it needs to be called independent of the object
     @staticmethod
     def course_count():
+        """
+        Return the number of course count.
+
+        Args:
+        """
         return Course.__course_count
 
 
@@ -134,28 +263,66 @@ class Degree(object):
 
     # constructor
     def __init__(self, name):
+        """
+        Initialize a degree of this component.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+        """
         self.__degree_name = name
         self.__courses = []
         Degree.__degree_count += 1
 
     @property
     def degree_name(self):
+        """
+        The degree name of this node.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__degree_name
 
     @degree_name.setter
     def degree_name(self, name):
+        """
+        Degree name.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+        """
         self.__degree_name = name
 
     @property
     def courses(self):
+        """
+        Returns a courses.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__courses
 
     @courses.setter
     def courses(self, courses):
+        """
+        Courses the given courses.
+
+        Args:
+            self: (todo): write your description
+            courses: (todo): write your description
+        """
         self.__courses = courses
 
     @staticmethod
     def degree_count():
+        """
+        Return the number of degree in the degree.
+
+        Args:
+        """
         return Degree.__degree_count
 
 
@@ -166,33 +333,76 @@ class Program(object):
 
     # constructor
     def __init__(self, name):
+        """
+        Initialize a program.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+        """
         self.__program_name = name
         self.__degrees = []
         Program.__program_count += 1
 
     @property
     def program(self):
+        """
+        Returns the program.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__program_name
 
     @program.setter
     def program(self, name):
+        """
+        Sets the program.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+        """
         self.__program_name = name
 
     @property
     def degrees(self):
+        """
+        Returns the degrees of degrees in degrees.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.__degrees
 
     @degrees.setter
     def degrees(self, degrees):
+        """
+        : param degrees : degrees. degrees.
+
+        Args:
+            self: (todo): write your description
+            degrees: (todo): write your description
+        """
         self.__degrees = degrees
 
     @staticmethod
     def program_count():
+        """
+        Returns the number of program count.
+
+        Args:
+        """
         return Program.__program_count
 
 
 # main entry point function
 def main():
+    """
+    Main function.
+
+    Args:
+    """
     # Let's create four students
     joe = Student("Joe", 15)
     mark = Student("Mark", 16)

@@ -6,11 +6,23 @@ class Queue():
     SIZE = 5 #A constant to define the size of the queue
 
     def __init__(self):
+        """
+        Reset the cache
+
+        Args:
+            self: (todo): write your description
+        """
         self.__items =[""]*self.SIZE
         self.__front = -1
         self.__rear = -1
 
     def isFull(self):
+        """
+        Determine if the front of the node
+
+        Args:
+            self: (todo): write your description
+        """
         if(self.__front == 0 and self.__rear == self.SIZE -1):
             return True
         if(self.__front == self.__rear + 1):
@@ -18,11 +30,24 @@ class Queue():
         return False
 
     def isEmpty(self):
+        """
+        Returns true if the front of the front of the front of the frontend.
+
+        Args:
+            self: (todo): write your description
+        """
         if(self.__front == -1):
             return True
         return False
 
     def enQueue(self, element):
+        """
+        EnQueue a new element
+
+        Args:
+            self: (todo): write your description
+            element: (todo): write your description
+        """
         if(self.isFull()):
             print("Queue is full")
         else:
@@ -33,6 +58,12 @@ class Queue():
             print("Inserted", element)
 
     def deQueue(self):
+        """
+        DeQueue items from the queue.
+
+        Args:
+            self: (todo): write your description
+        """
         if(self.isEmpty()):
            print("Queue is empty")
            return -1
@@ -46,6 +77,12 @@ class Queue():
             return element
 
     def Display(self):
+        """
+        Print out the display
+
+        Args:
+            self: (todo): write your description
+        """
         if(self.isEmpty()):
             print("Empty Queue")
         else:

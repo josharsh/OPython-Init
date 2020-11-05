@@ -13,6 +13,14 @@ class Tiger:
 
     # instance attribute
     def __init__(self, name, age):
+        """
+        Initialize a new age.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+            age: (str): write your description
+        """
         self.name = name
         self.age = age
 
@@ -39,14 +47,35 @@ class Tiger:
     
     # instance attributes
     def __init__(self, name, age):
+        """
+        Initialize a new age.
+
+        Args:
+            self: (todo): write your description
+            name: (str): write your description
+            age: (str): write your description
+        """
         self.name = name
         self.age = age
     
     # instance method
     def growl(self, growl):
+        """
+        Return a string representation of the : class : lxml. element }.
+
+        Args:
+            self: (todo): write your description
+            growl: (todo): write your description
+        """
         return "{} growls {}".format(self.name, growl)
 
     def hunt(self):
+        """
+        Returns the hunt name of the hunt.
+
+        Args:
+            self: (todo): write your description
+        """
         return "{} is now hunting".format(self.name)
 
 # instantiate the object
@@ -65,26 +94,62 @@ Blu is now hunting'''
 class Bird:
     
     def __init__(self):
+        """
+        Initialize the state
+
+        Args:
+            self: (todo): write your description
+        """
         print("Bird is ready")
 
     def whoisThis(self):
+        """
+        WhoisThis
+
+        Args:
+            self: (todo): write your description
+        """
         print("Bird")
 
     def swim(self):
+        """
+        Swimizes the swimplements
+
+        Args:
+            self: (todo): write your description
+        """
         print("Swim faster")
 
 # child class
 class Penguin(Bird):
 
     def __init__(self):
+        """
+        Initialize the init
+
+        Args:
+            self: (todo): write your description
+        """
         # call super() function
         super().__init__()
         print("Penguin is ready")
 
     def whoisThis(self):
+        """
+        WhoisThis
+
+        Args:
+            self: (todo): write your description
+        """
         print("Penguin")
 
     def run(self):
+        """
+        Run the command
+
+        Args:
+            self: (todo): write your description
+        """
         print("Run faster")
 
 peggy = Penguin()
@@ -103,12 +168,31 @@ Run faster'''
 class Computer:
 
     def __init__(self):
+        """
+        Initialize the object.
+
+        Args:
+            self: (todo): write your description
+        """
         self.__maxprice = 900
 
     def sell(self):
+        """
+        Prints the max maxprice
+
+        Args:
+            self: (todo): write your description
+        """
         print("Selling Price: {}".format(self.__maxprice))
 
     def setMaxPrice(self, price):
+        """
+        Sets the maximum.
+
+        Args:
+            self: (todo): write your description
+            price: (int): write your description
+        """
         self.__maxprice = price
 
 c = Computer()
@@ -131,21 +215,51 @@ Selling Price: 1000'''
 class Parrot:
 
     def fly(self):
+        """
+        Print out ]
+
+        Args:
+            self: (todo): write your description
+        """
         print("Parrot can fly")
     
     def swim(self):
+        """
+        Swimizes the swimplements
+
+        Args:
+            self: (todo): write your description
+        """
         print("Parrot can't swim")
 
 class Penguin:
 
     def fly(self):
+        """
+        Print out ]
+
+        Args:
+            self: (todo): write your description
+        """
         print("Penguin can't fly")
     
     def swim(self):
+        """
+        Swimizes the swimplements
+
+        Args:
+            self: (todo): write your description
+        """
         print("Penguin can swim")
 
 # common interface
 def flying_test(bird):
+    """
+    Flying test test.
+
+    Args:
+        bird: (todo): write your description
+    """
     bird.fly()
 
 #instantiate objects
