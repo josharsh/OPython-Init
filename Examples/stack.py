@@ -17,14 +17,32 @@ class Stack:
     
     # checking stack is empty or not 
     def isempty(self):
+        """
+        Return true if all empty list is empty.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.st == []
     
     # Inserting an element in the list
     def push(self):
+        """
+        Pushes element to the element.
+
+        Args:
+            self: (todo): write your description
+        """
         self.st.append(element)
 
     # Removing the last element from the list
     def pop(self):
+        """
+        Remove and return the last element.
+
+        Args:
+            self: (todo): write your description
+        """
         if self.isempty():
             return - 1
         else:
@@ -32,12 +50,25 @@ class Stack:
 
     # Returning the topmost element from the list
     def peek(self):
+        """
+        Return the next item from the queue.
+
+        Args:
+            self: (todo): write your description
+        """
         num = len(self.st)
         return self.st[num - 1]
 
 
     # Searching an element in the list and return its index position
     def search(self, element):
+        """
+        Returns the first occurrence.
+
+        Args:
+            self: (todo): write your description
+            element: (todo): write your description
+        """
         if self.isempty():
             return -1
         else:
@@ -49,6 +80,12 @@ class Stack:
 
     # Display the operations 
     def display(self):
+        """
+        Display the display as a string.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.st
 
 
@@ -66,17 +103,48 @@ class Stack(object):
         self.l = []
 
     def push(self, arg):
+        """
+        Push an argument to the list.
+
+        Args:
+            self: (todo): write your description
+            arg: (str): write your description
+        """
         self.l.append(arg)
 
     def pop(self):
+        """
+        Remove and return the first element from the list.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.l.pop()
 
     def top(self):
+        """
+        Returns the top row.
+
+        Args:
+            self: (todo): write your description
+        """
         return self.l[-1]
 
     def __len__(self):
+        """
+        Return the length of the length.
+
+        Args:
+            self: (todo): write your description
+        """
         return len(self.l)
 
     def is_empty(self):
+        """
+        Returns true if all : class is empty.
+
+        Args:
+            self: (todo): write your description
+        """
         return len(self) == 0
 

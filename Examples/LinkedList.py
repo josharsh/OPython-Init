@@ -5,6 +5,13 @@ class Node:
 
     # Function to initialize the node object
     def __init__(self, data):
+        """
+        Initialize data.
+
+        Args:
+            self: (todo): write your description
+            data: (todo): write your description
+        """
         self.data = data  # Assign data
         self.next = None  # Initialize
                           # next as null
@@ -15,11 +22,23 @@ class LinkedList:
     # Function to initialize the Linked
     # List object
     def __init__(self):
+        """
+        Initialize the head.
+
+        Args:
+            self: (todo): write your description
+        """
         self.head = None
     # Here self.head is basically initialised with a null value
     # This function prints contents of linked list
     # starting from head
     def printList(self):
+        """
+        Print a list of the buffer.
+
+        Args:
+            self: (todo): write your description
+        """
         temp = self.head
         while (temp):
             print(temp.data)

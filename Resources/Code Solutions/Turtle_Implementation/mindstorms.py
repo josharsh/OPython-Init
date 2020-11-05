@@ -6,6 +6,11 @@ brad.shape("circle")
 brad.speed(0.55)
 brad.color('yellow')
 def draw_square():
+    """
+    Draws a set of the given quare.
+
+    Args:
+    """
     iterationsforsquare=4
     count=0
     while(count<iterationsforsquare):

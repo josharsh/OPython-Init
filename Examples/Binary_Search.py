@@ -7,6 +7,15 @@ Created on Wed Oct  9 07:36:45 2019
 
 # Returns index of x in arr if present, else -1 
 def binarySearch (arr, l, r, x): 
+    """
+    Find the indices of arr in arr.
+
+    Args:
+        arr: (array): write your description
+        l: (int): write your description
+        r: (int): write your description
+        x: (int): write your description
+    """
   
     # Check base case 
     if r >= l: 

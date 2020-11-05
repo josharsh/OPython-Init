@@ -37,6 +37,11 @@ application.app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
 # Re-direct to Swagger/OpenAPI UI
 @application.app.route('/')
 def index():
+    """
+    Return the index of the given url.
+
+    Args:
+    """
     return redirect(
         location=url_for(
             endpoint='/api./api_swagger_ui_index'
@@ -48,6 +53,11 @@ def index():
 # Default robots reply
 @application.app.route('/robots.txt', methods=['GET'])
 def robots():
+    """
+    Return a list of all available views
+
+    Args:
+    """
     return "User-agent: *\nDisallow: /"
 
 

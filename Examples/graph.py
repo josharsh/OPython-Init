@@ -58,6 +58,12 @@ class Graph(object):
         return edges
 
     def __str__(self):
+        """
+        Return a string representation of the graph.
+
+        Args:
+            self: (todo): write your description
+        """
         res = "vertices: "
         for k in self.__graph_dict:
             res += str(k) + " "

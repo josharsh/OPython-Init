@@ -14,6 +14,11 @@ for i in range(4): # Start a loop
 # To make it easy for us let us make a function to the square
 
 def square():
+    """
+    Calculate the square of the motors.
+
+    Args:
+    """
     for i in range(4):
         forward(100)
         right(90)

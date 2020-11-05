@@ -15,12 +15,28 @@ class Student:
 
 	# Constructor
 	def __init__(self,Roll_Number,Name,Group):
+     """
+     Initialize a new instance.
+
+     Args:
+         self: (todo): write your description
+         Roll_Number: (int): write your description
+         Name: (str): write your description
+         Group: (todo): write your description
+     """
 		self.Roll_Number = Roll_Number
 		self.Name = Name
 		self.Group = Group
 
 	# Equals Method : To check if two objects of this class are equal.
 	def __eq__(self, other):
+     """
+     Compares two values are equal values.
+
+     Args:
+         self: (todo): write your description
+         other: (todo): write your description
+     """
 		if isinstance(other, self.__class__):
 			return (self.Roll_Number == other.Roll_Number) and (self.Name == other.Name) and (self.Group == other.Group)
 		else:
@@ -28,18 +44,49 @@ class Student:
 
 	#SETTERS
 	def set_Group(self,New_Group):
+     """
+     Set the group group of the group
+
+     Args:
+         self: (todo): write your description
+         New_Group: (todo): write your description
+     """
 		self.Group = New_Group
 	
 	#GETTERS
 	def get_Roll_Number(self):
+     """
+     : returns : class
+
+     Args:
+         self: (todo): write your description
+     """
 		return self.Roll_Number
 	def get_Name(self):
+     """
+     Returns the name of the name
+
+     Args:
+         self: (todo): write your description
+     """
 		return self.Name
 	def get_Group(self):
+     """
+     Return the group of the group
+
+     Args:
+         self: (todo): write your description
+     """
 		return self.Group
 
 	# Print Method : To print the data attributes of the class.
 	def Print_Details(self):
+     """
+     Prints the details of the group.
+
+     Args:
+         self: (todo): write your description
+     """
 		print(">--- Student Details ---<")
 		print("Roll Number:",self.Roll_Number)
 		print("Name:",self.Name)
@@ -50,24 +97,63 @@ class Professor:
 
 	# Constructor
 	def __init__(self,Name,Subject):
+     """
+     Initialize a new instance
+
+     Args:
+         self: (todo): write your description
+         Name: (str): write your description
+         Subject: (str): write your description
+     """
 		self.Name = Name
 		self.Subject = Subject
 		self.Students = []
 
 	#SETTERS
 	def set_Students(self,Students_List):
+     """
+     : parameter_List.
+
+     Args:
+         self: (todo): write your description
+         Students_List: (list): write your description
+     """
 		self.Students = Students_List
 
 	#GETTERS
 	def get_Name(self):
+     """
+     Returns the name of the name
+
+     Args:
+         self: (todo): write your description
+     """
 		return self.Name
 	def get_Subject(self):
+     """
+     : return : class
+
+     Args:
+         self: (todo): write your description
+     """
 		return self.Subject
 	def get_Students(self):
+     """
+     Returns the next : class : class :.
+
+     Args:
+         self: (todo): write your description
+     """
 		return self.Students
 
 	# Print Method : To print the data attributes of the class.
 	def Print_Details(self):
+     """
+     Prints the details of the database.
+
+     Args:
+         self: (todo): write your description
+     """
 		print(">--- Professor Details ---<")
 		print("Name:",self.Name)
 		print("Subject:",self.Subject)

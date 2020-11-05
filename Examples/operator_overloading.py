@@ -11,6 +11,14 @@ Instructions:
 class Point(object):
     # the constructor
     def __init__(self, x, y):
+        """
+        Initialize a new data object
+
+        Args:
+            self: (todo): write your description
+            x: (int): write your description
+            y: (int): write your description
+        """
         # these are the x, y coordinates
         self.x = x
         self.y = y
@@ -19,6 +27,13 @@ class Point(object):
     # with the x coordinate as the sum of the x coordinates of two points
     # and y coordinate as the sum of y coordinates of two points
     def __add__(self, other):
+        """
+        Return a new point to this point
+
+        Args:
+            self: (todo): write your description
+            other: (todo): write your description
+        """
         x = self.x + other.x
         y = self.y + other.y
         return Point(x, y)
@@ -26,6 +41,13 @@ class Point(object):
 
 # Bonus:  Find the length between two points!
 def calculate_length(p1, p2):
+    """
+    Calculate the length of two points.
+
+    Args:
+        p1: (todo): write your description
+        p2: (todo): write your description
+    """
     import math
     # length = sqrt((x2 - x1)^2 + (y2 - y1)^2)
     length = math.sqrt((p1.x - p2.x)**2 + (p1.y - p2.y)**2)
@@ -34,6 +56,11 @@ def calculate_length(p1, p2):
 
 # the main entry point function
 def main():
+    """
+    Main function.
+
+    Args:
+    """
     p1 = Point(3, 5)
     p2 = Point(-4, 10)
     p3 = p1 + p2

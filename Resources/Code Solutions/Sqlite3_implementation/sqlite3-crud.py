@@ -3,27 +3,66 @@
 import sqlite3
 
 def insert(db, row):
+    """
+    Insert a new database
+
+    Args:
+        db: (todo): write your description
+        row: (int): write your description
+    """
     db.execute('insert into test (t1, i1) values (?, ?)', (row['t1'], row['i1']))
     db.commit()
 
 def retrieve(db, t1):
+    """
+    Retrieve a cursor from the database.
+
+    Args:
+        db: (todo): write your description
+        t1: (str): write your description
+    """
     cursor = db.execute('select * from test where t1 = ?', (t1,))
     return cursor.fetchone()
 
 def update(db, row):
+    """
+    Update the database
+
+    Args:
+        db: (todo): write your description
+        row: (int): write your description
+    """
     db.execute('update test set i1 = ? where t1 = ?', (row['i1'], row['t1']))
     db.commit()
 
 def delete(db, t1):
+    """
+    Delete the database.
+
+    Args:
+        db: (todo): write your description
+        t1: (str): write your description
+    """
     db.execute('delete from test where t1 = ?', (t1,))
     db.commit()
 
 def disp_rows(db):
+    """
+    Disp_rows
+
+    Args:
+        db: (todo): write your description
+    """
     cursor = db.execute('select * from test order by t1')
     for row in cursor:
         print('  {}: {}'.format(row['t1'], row['i1']))
 
 def main():
+    """
+    Main function.
+
+    Args:
+    """
     db = sqlite3.connect('test.db')
     db.row_factory = sqlite3.Row
     print('Create table test')
