@@ -99,6 +99,54 @@ Penguin
 Swim faster
 Run faster'''
 
+# Parent Class
+class Person:
+    def __init__(self, fName, lName, birthday, phone_number):
+        self.fName = fName
+        self.lName = lName
+        self.birthday = birthday
+        self.phone_number = phone_number
+        print("Person instantiated.")
+
+    def getName(self):
+        print(self.fName, self.lName)
+
+    def getNumber(self):
+        print(self.phone_number)
+
+# Child Class
+class Student(Person):
+    def __init__(self, fName, lName, birthday, phone_number,
+                 gradYear, major, school):
+        super().__init__(fName, lName, birthday, phone_number)
+        self.gradYear = gradYear
+        self.major = major
+        self.school = school
+
+    def getGradYear(self):
+        print(self.gradYear)
+
+    def getMajor(self):
+        print(self.major)
+
+    def getSchool(self):
+        print(self.school)
+
+jack = Student("Jackson", "Maxwell", "09/24/2020", "(959) 943-9596",
+               2022, "Computer Science", "University of California - San Diego")
+jack.getName()
+jack.getGradYear()
+jack.getMajor()
+jack.getSchool()
+
+'''OUTPUT
+Person instantiated.
+Jackson Maxwell
+2022
+Computer Science
+University of California - San Diego'''
+
+
 #Data Encapsulation in Python
 class Computer:
 
