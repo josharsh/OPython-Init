@@ -16,4 +16,12 @@ yello("Yepp")
 def hey(phrase = "Gooden Morden"):
     print(phrase, '!')
     
-hey()    
+hey()
+
+#############################################################
+
+def add(a,b):
+    return a+b
+    
+number = add(3,5)
+print(number)
