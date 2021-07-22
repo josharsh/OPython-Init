@@ -2,9 +2,9 @@
 
 This repository walks you through the Object Oriented Programming concepts in python. Illustrates real-world examples, working codes and how to go about finding a coding solution.
 
-The course plan is as shown in the repository. There are four lessons which govern the flow of the course. It is highly recommended to refer to online resources for a detailed study about the mentioned topics which have been briefly covered.
+The course plan is shown in the repository. There are four lessons which govern the flow of the course. It is highly recommended to use online resources to gain a more in-depth understanding of the topics which are only briefly covered here.
 
-For the Tasks study in depth about the problem statements, conduct online research about various available modules and then start coding. Coding solutions have been provided in the resources folder. 
+For the Tasks: carefully study the problem statements, conduct online research about various available modules, and then start coding. Coding solutions have been provided in the resources folder.
 
 
 ## Course Breakdown:
@@ -18,7 +18,7 @@ For the Tasks study in depth about the problem statements, conduct online resear
 *   Lesson 2: Using Functions
     *   About Functions
     *   Python Standard Library
-    *   Inbuilt Functions
+    *   Built-in Functions
     *   Task 1
     *   Task 2
 *   Lesson 3: Introduction To OOP
