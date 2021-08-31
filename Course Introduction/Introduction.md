@@ -1,6 +1,6 @@
-# Learning Object Oriented Python
+# Learning Object-Oriented Python
 
-This repository walks you through the Object Oriented Programming concepts in python. Illustrates real-world examples, working codes and how to go about finding a coding solution.
+This repository walks you through the Object-Oriented Programming concepts in python. It illustrates real-world examples, working codes and how to go about finding a coding solution.
 
 The course plan is as shown in the repository. There are six lessons which govern the flow of the course. It is highly recommended to refer to online resources for a detailed study about the mentioned topics which have been briefly covered.
 
