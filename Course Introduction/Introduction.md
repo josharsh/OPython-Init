@@ -9,8 +9,6 @@ For the Tasks study in depth about the problem statements, conduct online resear
 
 ## Course Breakdown:
 
-
-
 *   Lesson 1: Introduction To Python
     *   Download
     *   Installation
@@ -35,4 +33,3 @@ For the Tasks study in depth about the problem statements, conduct online resear
     *   Task 4
     *   Task 5
     *   Task 6
-
