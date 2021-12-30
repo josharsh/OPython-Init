@@ -1,15 +1,15 @@
 # Example of Object Oriented Programming (OOP) classes and objects.
 
-# First we need to declare the class that will server us as a "template".
+# First we need to declare the class that will serve us as a "template".
 class Plane:
     def __init__(self, model, seats):
         # The init function is the function executed when we first create (instanciate)
-        # the class in the main programm. When we instanciate a class we have an object.
+        # the class in the main program. When we instanciate a class we have an object.
         # In this init we declare the variables that we are going to use for the class.
         self.plane_model = model
         self.number_seats = seats
 
-    # This two functions will return us the value of the object when we call them on the
+    # These two functions will return the value of the object when we call them on the
     # main program.
     def model(self):
         return self.model
