@@ -1,20 +1,21 @@
 word = "photosynthesis"
 
-#otosy
+
 print(word[2:7])             #strts from 2 and ends before 7
-#photo
+# Result : otosy
 print(word[:5])              #ends before 5
-#photosynthesis
+# Result : photo
 print(word[:])               #print whole string
-#ptyhi
+# Result : photosynthesis
 print(word[::3])             #print 0 and multiple of 3 afterwards
-#tyhi
+# Result : ptyhi
 print(word[3::3])            #print 3 and multiple of 3 afterwards
-#photosynthesi
+# Result : tyhi
 print(word[:-1])            #ends before -1
-#photosy
+# Result : photosynthesi
 print(word[:-7])            #ends before -7
-#sisehtnysotohp
+# Result : photosy
 print(word[::-1])            #print string in reverse
-#sotohp
+# Result : sisehtnysotohp
 print(word[5::-1])            #print reverse till 5
+# Result : sotohp
