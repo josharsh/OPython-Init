@@ -36,6 +36,11 @@ going ahead with python programming.
 '''
 
 # Variables
+'''
+The Python interpreter assigns types to variables. Variables of each type can be used to store a different
+form of data. Python has five standard data types: numbers, string, lists, tuples and dictionaries. Below are
+examples of number and string types.
+'''
 x = 5
 y = "John"
 print(x)
