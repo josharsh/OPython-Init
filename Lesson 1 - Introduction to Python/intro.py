@@ -15,6 +15,9 @@ CAMBIO DE TEXTO
 Linux:For Linux, Python comes bundled with the linux.
 CAMBIO DE TEXTO
 01111
+1
+2
+
 '''
 #first program in Python
 # Script Begins 
