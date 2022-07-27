@@ -16,6 +16,10 @@ Linux:For Linux, Python comes bundled with the linux.
 CAMBIO DE TEXTO
 01111
 1
+22
+222
+
+
 2
 
 '''
