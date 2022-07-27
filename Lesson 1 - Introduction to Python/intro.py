@@ -12,6 +12,8 @@ which is installed when you install the python software from http://python.org/
 
 Linux:For Linux, Python comes bundled with the linux.
 CAMBIO DE TEXTO
+Linux:For Linux, Python comes bundled with the linux.
+CAMBIO DE TEXTO
 '''
 #first program in Python
 # Script Begins 
