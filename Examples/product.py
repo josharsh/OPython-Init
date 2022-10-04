@@ -38,7 +38,7 @@ class Product():
 
   # update price according the the discount percentage
   def discount(self, percentage):
-    self.price = price * (1 - percentage/100)
+    self.__price = self.__price * (1 - percentage/100)
 
 
 if __name__ == "__main__":
