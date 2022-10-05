@@ -14,27 +14,35 @@ class Product():
     self.__stock = stock
 
   # getter method return name
-  def getName(self):
+  @property
+  def name(self):
     return self.__name
   
   # getter method for return price
-  def getPrice(self):
+  # We are using property decorator to help us setting up setter and getter
+  # property is a python built-in function that return a function (can be use as decorator)
+  @property
+  def price(self):
     return self.__price
   
   # setter method for update price
-  def setPrice(self, price):
-    self.price = price
+  @price.setter
+  def price(self, price):
+    self.__price = price
   
   # getter method for return stock
-  def getStock(self):
+  @property
+  def stock(self):
     return self.__stock;
 
   # setter method for update stock
-  def setStock(self, stock):
+  @stock.setter
+  def stock(self, stock):
     self.__stock = stock
 
   def purchaseOne(self):
-    self.__stock -= 1
+    if (self.__stock > 0):
+      self.__stock -= 1
 
   # update price according the the discount percentage
   def discount(self, percentage):
@@ -53,7 +61,11 @@ if __name__ == "__main__":
   # Discount price on samsung
   samsungPhone.discount(20)
 
-  # print price of samsungPhone
-  print(samsungPhone.getPrice())
+  # calling setter & getter example
+  iphone.price = 1234
+  print(iphone.price)
 
-  print(iphone.getStock())
+  # print price of samsungPhone
+  print(samsungPhone.price)
+
+  print(iphone.stock)
