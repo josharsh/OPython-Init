@@ -1,0 +1,42 @@
+Exception Handling
+---------------------------------------------------------------------------------
+Error in Python can be of two types i.e. Syntax errors and Exceptions.
+● Errors are the problems in a program due to which the program will stop the
+execution.
+● On the other hand, exceptions are raised when some internal events occur
+which changes the normal flow of the program.
+---------------------------------------------------------------------------------
+Difference between Syntax Errors and Exceptions
+Syntax Error: As the name suggests this error is caused by the wrong syntax in the
+code. It leads to the termination of the program.
+Example:
+Consider the given code snippet:
+We will get the output as:
+The syntax error is because there should be a “:” at the end of an if statement.
+Since it is not present, it gives a syntax error.
+Exceptions: Exceptions are raised when the program is syntactically correct but the
+code resulted in an error. This error does not stop the execution of the program,
+however, it changes the normal flow of the program.
+Example:
+6
+amount = 10000
+if(amount>2999)
+ print("Something")
+SyntaxError: invalid syntax
+The syntax error is because there should be a “:” at the end of an if statement.
+Since it is not present, it gives a syntax error.
+Exceptions: Exceptions are raised when the program is syntactically correct but the
+code resulted in an error. This error does not stop the execution of the program,
+however, it changes the normal flow of the program.
+Example:
+6
+amount = 10000
+if(amount>2999)
+ print("Something")
+SyntaxError: invalid syntax
+marks = 10000
+a = marks / 0
+print(a)
+Output:
+The above example raised the ZeroDivisionError exception, as we are trying to
+divide a number by 0 which is not defined.
