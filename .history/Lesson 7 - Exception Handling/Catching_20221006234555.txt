@@ -1,0 +1,10 @@
+Catching Exceptions
+In Python, exceptions can be handled using try-except blocks.
+● If the Python program contains suspicious code that may throw the
+exception, we must place that code in the try block.
+● The try block must be followed by the except statement, which contains a
+block of code that will be executed in case there is some exception in the try
+block.
+● We can thus choose what operations to perform once we have caught the
+exception.
+● Here is a simple example:
