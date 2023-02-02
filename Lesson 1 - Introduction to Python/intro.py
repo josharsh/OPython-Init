@@ -11,6 +11,16 @@ Windows:There are many interpreters available freely to run Python scripts like 
 which is installed when you install the python software from http://python.org/
 
 Linux:For Linux, Python comes bundled with the linux.
+CAMBIO DE TEXTO
+Linux:For Linux, Python comes bundled with the linux.
+CAMBIO DE TEXTO
+01111
+1
+22
+222
+
+
+2
 
 '''
 #first program in Python
