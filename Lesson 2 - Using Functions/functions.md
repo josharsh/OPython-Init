@@ -60,8 +60,25 @@ def my_function():
 my_function()
 ```
 
+## Uses of Functions 
+Functions are useful because they allow us to reuse pieces of code. For example, consider the following code, to print numbers from 0 to 5: 
 
+```
+for i in range(6):
+  print(i)
+```
 
+What if we wanted to do this for any number n? 
+
+We can write a function that does this for us: 
+```
+def from_0_to_(n):
+  for i in range(n+1):
+    print(n)
+
+from_0_to_(6)
+from_0_to_(7)
+```
 #### With this short and crisp refresher on functions in python, the Lesson will now walk you through some in-built functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
 
 
