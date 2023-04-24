@@ -1,8 +1,8 @@
 # Python: An Introduction.
 
-Designed by Guido van Rossum, Python is a popular open source programming language released in 1991. It is a  general-purpose, high-level programming language maintained by the Python Software Foundation. 
+Designed by Guido van Rossum, Python is a popular open-source programming language released in 1991. It is a general-purpose, high-level programming language maintained by the Python Software Foundation.
 
-Before you head forward, it is important to note that there are two major Python versions- Python 2 and Python 3. Both the versions have significant differences. 
+Before you head forward, it is important to note that there are two major Python versions: Python 2 and Python 3. There are some significant differences between the two. It should also be noted that Python2 has not been supported by the Python Software Foundation since January 1st 2020, and it is recommended to switch to Python3.
 
 
 ## Why Learn Python:
@@ -10,7 +10,7 @@ Before you head forward, it is important to note that there are two major Python
 
 
 *   Simple to Learn
-*   Free & open source
+*   Free & open-source
 *   High-level
 *   Emphasizes code readability
 *   Interpreted

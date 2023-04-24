@@ -7,9 +7,9 @@
 
 
 
-*   A function is a block of code which only runs when it is called.It performs a specific task.
+*   A function is a block of code which only runs when it is called. It performs a specific task.
 *   You can pass data, known as parameters, into a function.
-*   A function can return data as a result to the calling function.
+*   A function can return data as a result of calling the function.
 
 
 ### Python Sample program to display the use of functions:
@@ -62,7 +62,7 @@ my_function()
 
 
 
-#### With this short and crisp refresher on functions in python, the Lesson will now walk you through some in-built functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
+#### With this short and crisp refresher on functions in python, the Lesson will now walk you through some built-in functions in python. It is expected that you have preliminary programming knowledge (Iterators, Conditions, Syntax, Semantics, etc.) 
 
 
 # MODULE 1: CREATING  A REMINDER APP
@@ -114,6 +114,6 @@ While [The Python Language Reference](https://docs.python.org/3/reference/index.
 *   [https://docs.python.org/2/library/os.html](https://docs.python.org/2/library/os.html)
 
 
-Refer to [https://data-flair.training/blogs/python-built-in-functions/](https://data-flair.training/blogs/python-built-in-functions/) for a list of python inbuilt functions and explore their potential.
+Refer to [https://data-flair.training/blogs/python-built-in-functions/](https://data-flair.training/blogs/python-built-in-functions/) for a list of python built-in functions and explore their potential.
 
 
