@@ -1,0 +1,16 @@
+class questionSolve(object):
+   def twoSum(self, nums, targetNum):
+      """
+      :type nums: List[int]
+      :type targetNum: int
+      :rtype: List[int]
+      """
+      required = {}
+      for i in range(len(nums)):
+         if targetNum - nums[i] in required:
+            return [required[targetNum - nums[i]],i]
+         else:
+            required[nums[i]]=i
+list = [2,8,12,15]
+ob = questionSolve()
+print(ob.twoSum(input_list, 20))
