@@ -55,3 +55,24 @@ for x in fruits:
 for i in range(6):
   print(i)
 
+# For loop parameters
+for i in range(start=10, stop=20, step=2): # In every iteration i value will be increased by 2.
+  print(i)
+  
+# Summing first 5 digits
+sum=0
+for i in range(5):
+  sum += i
+  
+# Binary Addition
+a = int("1010", 2) # 10 in decimal
+b = int("110", 2) # 6 in decimal
+print(a+b)
+
+# Bitwise Operations
+a = 5
+b = 2
+
+print(a<<2) # 20 (Left Shift)
+print(a^b) # 7 (XOR) 
+print(~a) # Two's complement of a
