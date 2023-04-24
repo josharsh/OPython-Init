@@ -11,7 +11,7 @@ Windows:There are many interpreters available freely to run Python scripts like 
 which is installed when you install the python software from http://python.org/
 
 Linux:For Linux, Python comes bundled with the linux.
-
+CAMBIO DE TEXTO
 '''
 #first program in Python
 # Script Begins 
