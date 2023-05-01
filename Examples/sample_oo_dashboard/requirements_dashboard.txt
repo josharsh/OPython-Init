@@ -11,7 +11,7 @@ dash-table==4.3.0
 entrypoints==0.3
 Faker==0.8.18
 flake8==3.7.8
-Flask==1.1.1
+Flask==2.3.2
 Flask-Compress==1.4.0
 future==0.17.1
 inflection==0.3.1
