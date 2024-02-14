@@ -14,5 +14,21 @@ Before delving deeper, it's essential to recognize Python's dual iterations - Py
 - **Dynamic Typing**: Its dynamic typing eliminates the need for explicit data type declaration.
 - **Object-Oriented Architecture**: Python promotes the object-oriented programming paradigm.
 - **Thriving Community**: Benefit from a vibrant community offering support and resources.
-- **Cross-Platform Portabilit
+
+## Download 
+You can download python from [here](https://www.python.org/downloads/)
+
+For a detailed tutorial on installation refer to [this](https://realpython.com/installing-python/) (there are also tons of references all over the internet!)
+
+## Python Capabilities
+
+(Source: [W3Schools](https://www.w3schools.com/python/python_intro.asp))
+
+- Web Development: Python powers server-side web applications.
+- Desktop Applications: Build GUI-based desktop applications with Python.
+- Workflow Automation: Integrate Python to streamline workflows.
+- Database Management: Connect Python to databases and manipulate files.
+- Data Handling: Python excels at managing big data and complex math operations.
+- Software Development: Use Python for rapid prototyping or production-ready software.
+
 

@@ -23,6 +23,13 @@ Dive into the depths of Python's Object-Oriented Programming (OOP) paradigm with
 
 [Lesson 6 - String Manipulation](https://github.com/josharsh/OPython-Init/tree/master/Lesson%206%20-%20String%20Manipulation)
 
+## How to Clone
+To clone this repository to your local machine, run the following command in your terminal or command prompt while in a preferred directory:
+
+`git clone https://github.com/josharsh/OPython-Init.git`
+
+Navigate to any of the lessons and work within each of the folders within this repository! 
+
 ## Contribute! 
 Embracing the spirit of strangers helping strangers learn, we invite you to contribute to this open-source project. Your contributions will help us educate others and make learning a collaborative journey for everyone. [Click here to learn how you can get involved!](https://github.com/josharsh/OPython-Init/blob/master/CONTRIBUTING.md)
 
