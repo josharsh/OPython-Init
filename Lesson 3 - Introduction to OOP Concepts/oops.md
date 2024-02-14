@@ -1,6 +1,5 @@
-
-
-# Object-Oriented Basics Using Python
+<p align="center"><img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"></p>
+<h1 align="center">Object Oriented Basics</h1>
 
 (Source: [https://www.tutorialspoint.com/python/python_classes_objects.htm](https://www.tutorialspoint.com/python/python_classes_objects.htm))
 
@@ -68,17 +67,17 @@ class Parrot:
         self.name = name
         self.age = age
 ```
-# instantiate the Parrot class
+# Instantiate the Parrot Class
 ~~~
 blu = Parrot("Blu", 10)
 woo = Parrot("Woo", 15)
 ~~~
-# access the class attributes
+# Access the Class Attributes
 ~~~
 print("Blu is a {}".format(blu.__class__.species))
 print("Woo is also a {}".format(woo.__class__.species))
 ~~~
-# access the instance attributes
+# Access the Instance Attributes
 ~~~
 print("{} is {} years old".format( blu.name, blu.age))
 print("{} is {} years old".format( woo.name, woo.age))
