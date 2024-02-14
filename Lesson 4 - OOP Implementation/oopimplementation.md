@@ -1,4 +1,5 @@
-# OOP Implementation Using Python
+<p align="center"><img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"></p>
+<h1 align="center">Object Oriented Implementation</h1>
 
 
 ## TASK 1: Refer the Internet for turtle module of Python. Study about Class implementation from given repository resources and write a python script for making an animation of multiple squares deviating at an angle to form a circle.
