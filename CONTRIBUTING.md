@@ -1,21 +1,25 @@
-# CONTRIBUTING
+<p align="center"><img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"></p>
+<h1 align="center">Contributing Guidelines</h1>
 
-### Contributing Guidelines!
+Thank you for considering contributing to our project! Before making any contributions, please take a moment to review the following guidelines to ensure a smooth and efficient process. Your adherence to these guidelines reflects your courtesy towards open-source contributions.
 
- Read this space to know the contributing guidelines. Please follow the guidelines for smooth contribution. Following the guidelines reflect your courtesy towards the open source contribution. The issues, potential changes and pull requests will be addressed in compliance with the quality of need and urgency.  
+## Expected Contributions
+We welcome contributions in any form, whether it's improving documentation, reporting bugs, suggesting enhancements, or submitting code changes. Your contributions help enhance the overall quality of the project.
 
-### Expected Contribution:
-In case you are willing to contribute in any form, You're most Welcome! Improvement in documentation, reporting bugs and mistakes is expected in general.
+## Getting Started
 
-# Getting started
+### Ground Rules
+Before making any changes, please follow these ground rules:
+- Create an issue to propose changes before opening a pull request.
+- Communication outside the repository channels is discouraged and will not be entertained.
 
-## Ground Rules
-Issues should be created to submit a change to the repository before opening a pull request. Communication in any form except the repository channels is not expected and will not be entertained.
+## Your First Contribution
+If you're new to contributing, don't worry! Here's how you can get started:
+1. **Additions**: If you have new concepts, codebase improvements, or any relevant additions, open an issue to discuss them before submitting a pull request.
+2. **Reporting Mistakes**: Feel free to report any mistakes in the existing content or obsolete code by opening an issue.
 
+## Know More about Open Source Contributions
+If you're new to open-source contributions or need guidance, consider checking out these helpful tutorials:
+- [Make A Pull Request](http://makeapullrequest.com/)
+- [First Timers Only](http://www.firsttimersonly.com/)
 
-# Your First Contribution
-In case you have additions to the concepts, codebase, or anything relevant, You're most welcome to open an issue, followed by opening a pull request. You are again welcome to report a mistake in the existing content, and code obselete issues.
-
-
-### Know More about open Source Contributions:
-Here are a couple of friendly tutorials you can go through: http://makeapullrequest.com/ and http://www.firsttimersonly.com/
