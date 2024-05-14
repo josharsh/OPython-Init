@@ -2,7 +2,7 @@
 
 # First we need to declare the class that will server us as a "template".
 class Plane:
-    def __init__(self, model, seats):
+    def __init__(self, model:str, seats:int):
         # The init function is the function executed when we first create (instanciate)
         # the class in the main programm. When we instanciate a class we have an object.
         # In this init we declare the variables that we are going to use for the class.
@@ -12,16 +12,16 @@ class Plane:
     # This two functions will return us the value of the object when we call them on the
     # main program.
     def model(self):
-        return self.model
+        return self.plane_model
 
     def seats(self):
-        return self.seats
+        return self.number_seats
 
     # And with this two functions we can change the values of the class variables.
-    def change_model(self, model):
+    def change_model(self, model:str):
         self.plane_model = model
 
-    def change_seats(self, seats):
+    def change_seats(self, seats:int):
         self.number_seats = seats
 
 
@@ -30,8 +30,8 @@ def main():
     # And since we defined the init function with two parameters, we have to pass them
     # to the class. As you can see here we have an object "boeing" and an "object" cesna,
     # both of the class "Plane".
-    boeing = Plane('Boeing 787', '200')
-    cesna = Plane('Cesna', '4')
+    boeing = Plane('Boeing 787', 200)
+    cesna = Plane('Cesna', 4)
 
     # And now with the objects we can call the other functions we have defined.
     print(boeing.model())
