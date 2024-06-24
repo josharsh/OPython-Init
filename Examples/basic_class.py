@@ -44,3 +44,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # main() is called if the condition satisfy else the program will terminate.
