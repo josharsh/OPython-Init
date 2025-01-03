@@ -22,15 +22,13 @@ print("Hello!!")
 '''
 OUTPUT
 Hello!!
-'''
-'''
+
 NOTE
 In a Python script to print something on the console print() function is used – it simply prints out a line ( and also 
 includes a newline unlike in C ). One difference between Python 2 and Python 3 is the print statement. In Python 2, the “print” 
 atement is not a function, and therefore can be invoked without a parenthesis. However, in Python 3, it is a function, and must 
 invoked with parentheses.
-'''
-'''
+
 A suggestion would be to visit the documentation page of Python and study the keywords, functions, classes before actually
 going ahead with python programming.
 '''
