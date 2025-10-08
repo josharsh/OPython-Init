@@ -89,3 +89,35 @@ print("{} is {} years old".format( woo.name, woo.age))
 (Source: [https://www.geeksforgeeks.org/oop-in-python-set-3-inheritance-examples-of-object-issubclass-and-super/](https://www.geeksforgeeks.org/oop-in-python-set-3-inheritance-examples-of-object-issubclass-and-super/)
 
 Inheritance is one of the core concepts of object-oriented programming (OOP) languages. It is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
+
+
+## **Python Encapsulation **
+
+Source: https://www.geeksforgeeks.org/encapsulation-in-python/
+
+Encapsulation is one of the core principles of Object-Oriented Programming. It refers to the bundling of data (variables) and methods (functions) that operate on that data within a single unit called a class. It helps protect the internal state of an object by restricting direct access and allowing modification only through controlled interfaces like getters and setters.
+In simple terms, encapsulation ensures data security and control over how attributes are accessed or modified.
+
+## **Python Polymorphism **
+
+Source: https://www.geeksforgeeks.org/polymorphism-in-python/
+
+Polymorphism means “many forms.” In Python OOP, it allows the same function name or operator to behave differently based on the object or data type it is applied to. This makes code more flexible and extensible.
+It is commonly implemented through method overriding (same method name in a derived class) and method overloading (same method name with different parameters, though Python handles this differently than some languages).
+
+## ** Python Abstraction **
+
+Source: https://www.geeksforgeeks.org/abstraction-in-python/
+
+Abstraction focuses on hiding the complex implementation details and showing only the essential features of an object.
+In Python, abstraction is achieved using abstract classes and abstract methods from the abc module.
+It helps developers work with high-level functionality without worrying about the underlying complexity — improving code clarity and modularity.
+
+## **Python Classes and Objects **
+
+Source: https://www.geeksforgeeks.org/python-classes-and-objects/
+
+Classes and Objects form the foundation of Object-Oriented Programming in Python.
+A class acts as a blueprint or template for creating objects, defining their properties (attributes) and behaviors (methods).
+An object is an instance of a class that holds actual data and can perform actions defined by the class.
+Together, they provide the structure that enables code reuse, organization, and real-world modeling in programming.
