@@ -59,22 +59,22 @@ class Queue():
             print(self.__items[i])
 
 #This is the main program illustrating the use of the queue
+if __name__ == "__main__":
+    myQ = Queue() #Instantiate a new queue
+    myQ.deQueue() #Should give -1 error
 
-myQ = Queue() #Instantiate a new queue
-myQ.deQueue() #Should give -1 error
+    myQ.enQueue(1) #Add some data to the queue
+    myQ.enQueue(2)
+    myQ.enQueue(3)
+    myQ.enQueue(4)
+    myQ.enQueue(5)
 
-myQ.enQueue(1) #Add some data to the queue
-myQ.enQueue(2)
-myQ.enQueue(3)
-myQ.enQueue(4)
-myQ.enQueue(5)
+    #This one should fail, queue full
+    myQ.enQueue(6)
 
-#This one should fail, queue full
-myQ.enQueue(6)
+    myQ.Display()
 
-myQ.Display()
+    x = myQ.deQueue() #Remove 2 items from the queue
+    x = myQ.deQueue()
 
-x = myQ.deQueue() #Remove 2 items from the queue
-x = myQ.deQueue()
-
-myQ.Display()
+    myQ.Display()
