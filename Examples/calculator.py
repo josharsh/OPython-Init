@@ -81,5 +81,6 @@ Please type in the math operation you would like to complete:
         else:
             Calc.again()
 
-# Call calculate() outside of the function
-Calc.calculate()
+# Call calculate() outside of the function only if run directly
+if __name__ == "__main__":
+    Calc.calculate()
