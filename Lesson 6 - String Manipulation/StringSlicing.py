@@ -1,7 +1,7 @@
                             # 0 1 2 3 4 5 6 7 8 9 10 11 12 13  -> index
 word = "photosynthesis"     # p h o t o s y n t h  e  s  i  s
 
-#OBS: always stops at the previous index(number)
+# Note: slicing stops before the end index (the end index is not included)
 
 
 print(word[2:7]) -> #Result: otosy    ->   #strts from 2 and ends before 7
