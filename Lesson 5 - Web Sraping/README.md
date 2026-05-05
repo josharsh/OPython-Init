@@ -14,7 +14,7 @@ http://web.mta.info/developers/turnstile.html
 
 Turnstile data is compiled every week from May 2010 to present, so hundreds of .txt files exist on the site. Each date is a link to the .txt file that you can download.
 
-It would be torturous to manually right click on each link and save to your desktop. Luckily, there’s web-scraping!
+It would be complicated to manually right click on each link and save to your desktop. Luckily, there’s web-scraping!
 
 **Important notes about web scraping:**
 1. Read through the website’s Terms and Conditions to understand how you can legally use the data. Most sites prohibit you from using the data for commercial purposes.
