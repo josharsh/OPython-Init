@@ -29,6 +29,9 @@ On the website, right click and click on “Inspect”. This allows you to see t
 
 Once you’ve clicked on “Inspect”, you should see this console pop up.
 
+<img width="1469" height="881" alt="image" src="https://github.com/user-attachments/assets/d0b4c9cb-e4ff-40d2-a061-85b1b1b02734" />
+
+
 **Console**
 
 Notice that on the top left of the console, there is an arrow symbol.
